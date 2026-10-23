@@ -1,0 +1,7 @@
+﻿Student ID: 230103265
+Samples: 40,000,000 | Threads: 4 | Lock batch: 1 pair(s) per acquisition
+
+Shared PRNG (mutex)  : pi = 3.14126450 | abs error = 0.00032815 | time = 17255.8 ms
+Independent PRNGs    : pi = 3.14154400 | abs error = 0.00004865 | time = 3049.5 ms
+
+Speedup from removing generator locking: 5.66x
