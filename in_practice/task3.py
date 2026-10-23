@@ -78,4 +78,4 @@ if __name__ == "__main__":
         assert full_ok, "parallel output differs from serial output"
     except AssertionError as e:
         print(f"ASSERTION FAILED: {e}")
-        sys.exit(1)
+        sys.exit(1) 
