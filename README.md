@@ -1,0 +1,3 @@
+Mukamet Muratbek
+GROUP: 1-N
+PRACTICE GROUP: 03-P
