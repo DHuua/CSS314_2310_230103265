@@ -1,0 +1,3 @@
+﻿Seed (Student ID): 230103265 | N = 2,000,000 | Threads: 12
+Serial last = 11002257 | Parallel last = 11002257 | Full array equal: True
+Serial Time: 1.593 ms | Parallel Time: 1.011 ms | Speedup: 1.57x | Verification: PASS
