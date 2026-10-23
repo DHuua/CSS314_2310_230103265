@@ -1,0 +1,13 @@
+﻿Student ID seed: 230103265 | Logical cores: 12 | Tasks: 10,000 (1 KB x 500 rounds) | best of 2 runs
+
+Pool Size | Execution Time (ms) | Speedup vs 1 thread | Status
+--------------------------------------------------------------------------------
+        1 |              9885.8 |               1.00x | scaling
+        6 |               944.5 |              10.47x | scaling
+       12 |               528.7 |              18.70x | scaling
+       24 |               517.0 |              19.12x | OPTIMAL
+       48 |               518.9 |              19.05x | flat (within 5% of best)
+      192 |               576.8 |              17.14x | <-- DEGRADATION STARTS (context-switch overhead)
+      256 |               564.0 |              17.53x | oversubscribed
+
+Best pool size: 24. Execution time first worsens at pool size 192 (576.8 ms vs 517.0 ms).
